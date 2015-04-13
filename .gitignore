@@ -1,0 +1,10 @@
+## .gitignore ##
+
+# ignore all
+*
+*/
+
+# allow any
+!.gitignore
+!html2tsv.rb
+!README.md
