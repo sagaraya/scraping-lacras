@@ -35,13 +35,3 @@ CSV.open("salary.tsv", "w", :col_sep => "\t") do |io|
   io.puts(all_keys)
   formatted_all_data.each { |row| io.puts(row) }
 end
-
-#KEYS = [
-#  '給与年月',
-#  '支給額合計',
-#  '控除額合計',
-#  '差引支給額',
-#  'ベース給',
-#  'ライフプラン手当',
-#  '立替金(非)',
-#  'スキルアップ手当(書籍)'
